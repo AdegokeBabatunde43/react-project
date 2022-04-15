@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,400;1,500&family=Roboto:ital,wght@1,300;1,500&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.body{
+  font-family: Poppins;
+  
+}
+.navbar-light .navbar-nav .nav-link{
+  /* margin-right: 50px; */
+  color: black;
+  font-family: Poppins;
+  font-size: 15px;
+
+}
+.banner{
+ padding-top: 80px;
+}
+.highlight{
+  background-color: yellow;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  width: 150px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+.container .btn{
+  background-color: blue;
+  color: white;
+}
+.container h1{
+  font-weight: 600;
+  font-size: 50px;
+}
+.container p{
+  color: rgb(133, 120, 120);
+}
+.banner-left h1{
+  width: 350px
+}
+
+
+.banner-right img{
+  width: 80%;
+}
+
+.banner-bg{
+  background-color: #e4dfec;
+}
+h2{
+  font-weight : 600px;
+}
+.feactures{
+ padding: 100px 0;
+}
+.display{
+  background-image: url(./images/photo-1633521184087-cba52bd78fd1.jpeg);
+  height: 90vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+
+}
+.display-content{
+  margin-left: 50px;
+  color: #fff;
+
+  
+}
+.display-img p{
+  color: #fff;
+  margin-top: 22px;
+  margin-left: 30px;
+}
+.display-content h1{
+  font-size: 65px;
+  margin-top: 90px;
+  
+}
+
+.specification{
+  text-align:  center;
+  background-color: #e4dfec;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  
+
+}
+.banner img{
+  transition-property: 4s;
+  transition: 4s ;
+  transition-delay: 4s;
+  transition-duration: 4s;
+  transition-timing-function: ease-in;
+  animation-duration:4s;
+  animation-name: progress;
+  animation-delay: 4s;
+  animation-iteration-count: ease;
+  animation-direction: column;
+
+}
+.specification
+.specification h3{
+  font-size: 38px;
+}
+.specification p{
+  font-size: 20px;
+}
+.items{
+  display: flex;
+  justify-content:space-between;
+
+  
+}
+/* .feactures-container img{
+ background-color: silver;
+ position: absolute;
+ height: 100vh;
+ width: 30%;
+ 
+} */
+.items img{
+  margin: 15px;
+}
+.accessories1{
+  margin: 15px;
+  border-bottom: 1px solid rgb(214, 208, 208);
+  display: flex;
+  justify-content:space-around;
+  margin-top: 60px;
+  font-size:30px;
+  
+}
+.accessories1 h6{
+  font-size: 20px;
+}
+.include h3{
+  font-size: 40px;
+  margin-top: 60px;
+  line-height: 70px;
+}
+.include p{
+  font-size: 22px;
+
+}
+.bag img{
+  margin-left: 100px;
+  margin-top: 70px
+}
+.delivery{
+  background-color:silver;
+  margin-top: 70px;
+}
+.delivery-box{
+  background-color:white;
+  padding: 40px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.delivery-box span{
+background-color:yellow;
+padding: 7px;
+border-radius: 25px;
+font-size: 17px;
+}
+.delivery-box h6{
+  background-color: blue;
+  color: white;
+  text-align:  center;
+  padding: 12px;
+}
+.free-delivery{
+  display:flex; 
+  margin-top: 70px;
+  justify-content: space-between;
+  align-items: center;
+  text-align:  center;
+}
+.delivery-img{
+  margin: 10px;
+  
+}
+.delivery-image p{
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.review p{
+  font-size: 20px;
+}
+.review-profile{
+  border-radius: 10px;
+  border: 1px solid silver;
+  padding: 10px;
+  margin-top: 50px;
+}
+.woman{
+  margin-top: 150px;
+}
+.woman h1{
+  font-size: 50px;
+
+}
+.woman p{
+  font-size: 20px;
+  margin-top: 50px;
+  border-bottom: 1px solid silver;
+  font-weight: bold;
+}
+.woman img{
+  text-align: center;
+  margin-left: 120px;
+}
+.right{
+  background-color: silver;
+  padding-top: 50px;
+  height: 50vh;
+}
+.right h1{
+  font-size: 45px;
+}
+.right p{
+  font-size: 20px;
+  margin: 10px;
+}
+.right h6{
+  background-color:blue;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  width: 60%;
+  margin-top: 30px;
+}
+.semifooter{
+ 
+  border: 1px solid silver ;
+}
+.semifooter button{
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  
+  
+
+}
+.semifooter p{
+  color: black;
+  width: 20px;
+}
+.semifooter h6{
+  font-size:bold;
+}
+.semifooter p:hover{
+  border-bottom: 1px solid green;
+}
+.semifooter input{
+  position: relative;
+  width:105px;
+  text-decoration: none;
+  border: 1px solid rgb(226, 221, 221);
+
+}
+.logo-content{
+  font-size: 20px;
+}
+/* .footer-privacy p{
+  margin: 7px;
+  display:flex;
+  justify-content: space-between;
+
+} */
+@media (max-width: 600px){
+
+  .items{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    
+  }
+}
